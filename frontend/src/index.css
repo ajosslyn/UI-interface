@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* color all the even cells children of td white */
+tr:nth-child(even){
+  background-color: #D3D3D3;
+}
+
+/* color all the even cells children of tr gray */
+tr:nth-child(odd){
+  background-color: #F5F4F5;
+}
+
+th, td{
+  /* border : 5px solid green; */
+  width: 10rem;
+  height: 5rem;
+  text-align: center;
+}
+
